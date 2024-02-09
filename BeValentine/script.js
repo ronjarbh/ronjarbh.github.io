@@ -31,7 +31,7 @@ const novideo = document.getElementById('novideo');
 const infoText = document.getElementById('infoText');
 
 novideo.addEventListener('play', function() {
-    if (novideo.currentTime >= 0 && novideo.currentTime <= 10) { // Ändere die Zeit entsprechend der gewünschten Dauer der traurigen Musik
+    if (novideo.currentTime >= 0 && novideo.currentTime <= 10) {
         infoText.style.display = 'block';
     }
 });
