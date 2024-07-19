@@ -6,9 +6,16 @@ body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+
 .nine {
   position: relative;
   text-align: center;
+  justify-content: start;
+
+  .one, .two, .three, .four, .five, .six, .seven, .eight {
+    display: none;
+  }
 }
 
 .btn-primary {

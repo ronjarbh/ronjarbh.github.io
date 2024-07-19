@@ -24,6 +24,7 @@ const fetchData = () => {
     });
 };
 
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
