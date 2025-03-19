@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
             // Remove preloader after all components are loaded
             const preloader = document.querySelector('.preloader');
             if (preloader) {
-                delay(100);
                 preloader.style.display = 'none';
             }
         });
